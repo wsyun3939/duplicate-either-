@@ -1,0 +1,37 @@
+[
+{
+  "directory": "C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/build",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe   -g   -o CMakeFiles\\duplicate-either-.dir\\main.c.obj   -c \"C:\\Users\\wsyun\\Desktop\\Thesis\\Block Relocation Problem\\duplicate-either-\\main.c\"",
+  "file": "C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/main.c"
+},
+{
+  "directory": "C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/build",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe   -g   -o CMakeFiles\\duplicate-either-.dir\\heuristics.c.obj   -c \"C:\\Users\\wsyun\\Desktop\\Thesis\\Block Relocation Problem\\duplicate-either-\\heuristics.c\"",
+  "file": "C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/heuristics.c"
+},
+{
+  "directory": "C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/build",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe   -g   -o CMakeFiles\\duplicate-either-.dir\\print.c.obj   -c \"C:\\Users\\wsyun\\Desktop\\Thesis\\Block Relocation Problem\\duplicate-either-\\print.c\"",
+  "file": "C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/print.c"
+},
+{
+  "directory": "C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/build",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe   -g   -o CMakeFiles\\duplicate-either-.dir\\problem.c.obj   -c \"C:\\Users\\wsyun\\Desktop\\Thesis\\Block Relocation Problem\\duplicate-either-\\problem.c\"",
+  "file": "C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/problem.c"
+},
+{
+  "directory": "C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/build",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe   -g   -o CMakeFiles\\duplicate-either-.dir\\solution.c.obj   -c \"C:\\Users\\wsyun\\Desktop\\Thesis\\Block Relocation Problem\\duplicate-either-\\solution.c\"",
+  "file": "C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/solution.c"
+},
+{
+  "directory": "C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/build",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe   -g   -o CMakeFiles\\duplicate-either-.dir\\solve.c.obj   -c \"C:\\Users\\wsyun\\Desktop\\Thesis\\Block Relocation Problem\\duplicate-either-\\solve.c\"",
+  "file": "C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/solve.c"
+},
+{
+  "directory": "C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/build",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe   -g   -o CMakeFiles\\duplicate-either-.dir\\timer.c.obj   -c \"C:\\Users\\wsyun\\Desktop\\Thesis\\Block Relocation Problem\\duplicate-either-\\timer.c\"",
+  "file": "C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/timer.c"
+}
+]

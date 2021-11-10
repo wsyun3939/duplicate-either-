@@ -1,0 +1,166 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/define.h
+
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/heuristics.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+define.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/define.h
+heuristics.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/heuristics.h
+print.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/print.h
+problem.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/problem.h
+solution.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/solution.h
+
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/heuristics.h
+define.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/define.h
+problem.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/problem.h
+solution.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/solution.h
+
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/main.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+define.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/define.h
+print.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/print.h
+problem.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/problem.h
+solution.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/solution.h
+solve.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/solve.h
+
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/print.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+define.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/define.h
+print.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/print.h
+problem.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/problem.h
+solution.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/solution.h
+
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/print.h
+stdio.h
+-
+define.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/define.h
+problem.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/problem.h
+solution.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/solution.h
+timer.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/timer.h
+
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/problem.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+define.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/define.h
+problem.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/problem.h
+
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/problem.h
+define.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/define.h
+
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/solution.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+define.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/define.h
+solution.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/solution.h
+
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/solution.h
+define.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/define.h
+problem.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/problem.h
+
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/solve.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+define.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/define.h
+heuristics.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/heuristics.h
+print.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/print.h
+problem.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/problem.h
+solution.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/solution.h
+solve.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/solve.h
+
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/solve.h
+define.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/define.h
+problem.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/problem.h
+solution.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/solution.h
+solve.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/solve.h
+
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/timer.c
+stdio.h
+-
+define.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/define.h
+timer.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/timer.h
+problem.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/problem.h
+
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/timer.h
+stdio.h
+-
+time.h
+-
+sys/time.h
+-
+problem.h
+C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/problem.h
+
