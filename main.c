@@ -42,10 +42,10 @@
 
 #define BUFFER 256
 #define ALPHA 0.2
-#define TIER 4
-#define STACK 9
-#define NBLOCK 32
-#define NUMBER 7801
+#define TIER 5
+#define STACK 10
+#define NBLOCK 45
+#define NUMBER 10701
 
 static problem_t *read_file(char *, int, int);
 static void usage(char *);
