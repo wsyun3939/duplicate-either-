@@ -40,32 +40,12 @@
 
 void timer_start(problem_t *problem)
 {
-#ifdef USE_CLOCK
   problem->stime = (double) clock()/(double) CLOCKS_PER_SEC;
-#else  /* !USE_CLOCK */
-  struct rusage ru;
-
-  getrusage(RUSAGE_SELF, &ru);
-  problem->stime = ru.ru_utime.tv_sec + ru.ru_utime.tv_usec / 1000000.0;
-#ifdef INCLUDE_SYSTEM_TIME
-  problem->stime += ru.ru_stime.tv_sec + ru.ru_stime.tv_usec / 1000000.0;
-#endif /* INCLUDE_SYSTEM_TIME */
-#endif /* USE_CLOCK */
 }
 
 void set_time(problem_t *problem)
 {
-#ifdef USE_CLOCK
   problem->time = (double) clock()/(double) CLOCKS_PER_SEC;
-#else  /* !USE_CLOCK */
-  struct rusage ru;
-
-  getrusage(RUSAGE_SELF, &ru);
-  problem->time = ru.ru_utime.tv_sec + ru.ru_utime.tv_usec / 1000000.0;
-#ifdef INCLUDE_SYSTEM_TIME
-  problem->time += ru.ru_stime.tv_sec + ru.ru_stime.tv_usec / 1000000.0;
-#endif /* INCLUDE_SYSTEM_TIME */
-#endif /* !USE_CLOCK */
   problem->time -= problem->stime;
 
   if(problem->time < 0.0) {
@@ -76,17 +56,7 @@ void set_time(problem_t *problem)
 double get_time(problem_t *problem)
 {
   double t;
-#ifdef USE_CLOCK
   t = (double) clock()/(double) CLOCKS_PER_SEC;
-#else  /* !USE_CLOCK */
-  struct rusage ru;
-
-  getrusage(RUSAGE_SELF, &ru);
-  t = ru.ru_utime.tv_sec + ru.ru_utime.tv_usec / 1000000.0;
-#ifdef INCLUDE_SYSTEM_TIME
-  t += ru.ru_stime.tv_sec + ru.ru_stime.tv_usec / 1000000.0;
-#endif /* INCLUDE_SYSTEM_TIME */
-#endif /* !USE_CLOCK */
   t -= problem->stime;
 
   return((t < 0.0)?0.0:t);

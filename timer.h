@@ -33,15 +33,8 @@
  */
 #ifndef TIMER_H
 #define TIMER_H
-#ifdef _MSC_VER
-#define USE_CLOCK
-#endif /* _MSC_VER */
 #include <stdio.h>
-#ifdef USE_CLOCK
-#include <time.h>
-#else  /* !USE_CLOCK */
 #include <sys/time.h>
-#endif /* !USE_CLOCK */
 #include "problem.h"
 
 void timer_start(problem_t *);
