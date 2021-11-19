@@ -41,11 +41,11 @@
 #include "solve.h"
 
 #define BUFFER 256
-#define ALPHA 0.2
-#define TIER 5
-#define STACK 10
-#define NBLOCK 45
-#define NUMBER 10701
+#define ALPHA 0.6
+#define TIER 6
+#define STACK 9
+#define NBLOCK 51
+#define NUMBER 9001
 
 static problem_t *read_file(char *, int, int);
 static void usage(char *);
