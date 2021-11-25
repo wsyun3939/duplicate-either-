@@ -58,8 +58,6 @@ typedef struct {
   double time;
 } problem_t;
 
-uchar verbose;
-int tlimit;
 
 problem_t *create_problem(int, int, int);
 void free_problem(problem_t *);

@@ -60,8 +60,6 @@ int main(int argc, char **argv)
   problem_t *problem;
   solution_t *solution;
 
-  verbose = FALSE;
-  tlimit = -1;
   n_stack = s_height = 0;
   for (agv = argv + 1, argc--; argc > 0 && agv[0][0] == '-'; argc--, agv++)
   {
@@ -73,10 +71,8 @@ int main(int argc, char **argv)
       return (1);
       break;
     case 'v':
-      verbose = TRUE;
       break;
     case 's':
-      verbose = FALSE;
       break;
     case 'S':
       if (argc == 1)
@@ -104,7 +100,6 @@ int main(int argc, char **argv)
         usage(argv[0]);
         return (1);
       }
-      tlimit = (int)atoi(agv[1]);
       agv++;
       argc--;
       break;
@@ -126,10 +121,7 @@ int main(int argc, char **argv)
       return (0);
     }
 
-    if (verbose == TRUE)
-    {
-      print_problem(problem, stdout);
-    }
+    
 
     solution = create_solution();
 

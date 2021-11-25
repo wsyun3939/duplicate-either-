@@ -243,10 +243,7 @@ uchar bb(problem_t *problem, solution_t *solution, int *ub, int level,
     return(FALSE);
   }
 
-  if(tlimit > 0 && ++count == 200000) {
-    count = 0;
-  }
-
+    
 #if 0
   printf("level=%d, target=%d\n", level, target_w);
   print_state(problem, pstate, stdout);
