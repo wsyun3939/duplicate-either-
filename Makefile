@@ -1,5 +1,6 @@
 CFLAGS=-O3 -Wall -g
 duplicate-either-:heuristics.o main.o print.o problem.o solution.o solve.o
+        gcc heuristics.o main.o print.o problem.o solution.o solve.o -o duplicate-either-
 heuristics.o:define.h heuristics.h print.h problem.h solution.h
 main.o:define.h print.h problem.h solution.h solve.h
 print.o:define.h print.h problem.h solution.h
