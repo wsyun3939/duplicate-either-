@@ -245,9 +245,6 @@ uchar bb(problem_t *problem, solution_t *solution, int *ub, int level,
 
   if(tlimit > 0 && ++count == 200000) {
     count = 0;
-    if(get_time(problem) >= (double) tlimit) {
-      return(TLIMIT);
-    }
   }
 
 #if 0

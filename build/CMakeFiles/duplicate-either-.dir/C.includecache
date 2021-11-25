@@ -77,8 +77,6 @@ problem.h
 C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/problem.h
 solution.h
 C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/solution.h
-timer.h
-C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/timer.h
 
 C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/problem.c
 stdio.h
@@ -143,22 +141,4 @@ solution.h
 C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/solution.h
 solve.h
 C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/solve.h
-
-C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/timer.c
-stdio.h
--
-define.h
-C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/define.h
-timer.h
-C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/timer.h
-problem.h
-C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/problem.h
-
-C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/timer.h
-stdio.h
--
-sys/time.h
--
-problem.h
-C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/problem.h
 

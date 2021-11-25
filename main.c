@@ -114,7 +114,7 @@ int main(int argc, char **argv)
   int nblock = NBLOCK;
   int k = 0;
   char filename[BUFFER];
-  FILE *fp_csv = NULL;
+  // FILE *fp_csv = NULL;
   for (int a = NUMBER; a < NUMBER + 100 * TIER; a++)
   {
     sprintf(filename, "C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/alpha=%.1f/%d-%d-%d/%05d.txt", ALPHA, TIER, STACK, nblock, a);
@@ -133,8 +133,6 @@ int main(int argc, char **argv)
 
     solution = create_solution();
 
-    timer_start(problem);
-
     ret = solve(problem, solution);
 
     print_time(problem);
@@ -146,12 +144,12 @@ int main(int argc, char **argv)
     {
       fprintf(stderr, "best=%d\n", solution->n_relocation);
     }
-    if (a % 100 == 1)
-    {
-      sprintf(filename, "C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/alpha=%.1f/%d-%d-%d(eihter).csv", ALPHA, TIER, STACK, nblock);
-      fp_csv = fopen(filename, "w");
-    }
-    fprintf(fp_csv, "%d\n", solution->n_relocation);
+    // if (a % 100 == 1)
+    // {
+    //   sprintf(filename, "C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/alpha=%.1f/%d-%d-%d(eihter).csv", ALPHA, TIER, STACK, nblock);
+    //   fp_csv = fopen(filename, "w");
+    // }
+    // fprintf(fp_csv, "%d\n", solution->n_relocation);
     k += solution->n_relocation;
     print_solution(problem, solution, stdout);
 
@@ -159,7 +157,7 @@ int main(int argc, char **argv)
     if (a % 100 == 0)
     {
       nblock++;
-      fclose(fp_csv);
+      // fclose(fp_csv);
     }
   }
   printf("ave_relocation:%f\n", (double)k / (100 * TIER));

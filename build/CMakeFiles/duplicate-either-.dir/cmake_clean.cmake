@@ -5,7 +5,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/duplicate-either-.dir/problem.c.obj"
   "CMakeFiles/duplicate-either-.dir/solution.c.obj"
   "CMakeFiles/duplicate-either-.dir/solve.c.obj"
-  "CMakeFiles/duplicate-either-.dir/timer.c.obj"
   "duplicate-either-.pdb"
   "duplicate-either-.exe"
   "duplicate-either-.exe.manifest"

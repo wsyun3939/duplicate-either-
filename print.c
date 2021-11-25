@@ -205,6 +205,5 @@ void print_solution_relocation(solution_t *solution, FILE *fp)
 
 void print_time(problem_t *problem)
 {
-  set_time(problem);
   fprintf(stderr, "time=%.2f\n", problem->time);
 }

@@ -8,7 +8,6 @@ CMakeFiles/duplicate-either-.dir/heuristics.c.obj
  C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/print.h
  C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/problem.h
  C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/solution.h
- C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/timer.h
 CMakeFiles/duplicate-either-.dir/main.c.obj
  C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/define.h
  C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/main.c
@@ -16,14 +15,12 @@ CMakeFiles/duplicate-either-.dir/main.c.obj
  C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/problem.h
  C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/solution.h
  C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/solve.h
- C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/timer.h
 CMakeFiles/duplicate-either-.dir/print.c.obj
  C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/define.h
  C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/print.c
  C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/print.h
  C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/problem.h
  C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/solution.h
- C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/timer.h
 CMakeFiles/duplicate-either-.dir/problem.c.obj
  C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/define.h
  C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/problem.c
@@ -41,9 +38,3 @@ CMakeFiles/duplicate-either-.dir/solve.c.obj
  C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/solution.h
  C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/solve.c
  C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/solve.h
- C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/timer.h
-CMakeFiles/duplicate-either-.dir/timer.c.obj
- C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/define.h
- C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/problem.h
- C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/timer.c
- C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/timer.h

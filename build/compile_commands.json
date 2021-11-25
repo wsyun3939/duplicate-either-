@@ -28,10 +28,5 @@
   "directory": "C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/build",
   "command": "C:\\MinGW\\bin\\mingw32-gcc.exe   -g   -o CMakeFiles\\duplicate-either-.dir\\solve.c.obj   -c \"C:\\Users\\wsyun\\Desktop\\Thesis\\Block Relocation Problem\\duplicate-either-\\solve.c\"",
   "file": "C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/solve.c"
-},
-{
-  "directory": "C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/build",
-  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe   -g   -o CMakeFiles\\duplicate-either-.dir\\timer.c.obj   -c \"C:\\Users\\wsyun\\Desktop\\Thesis\\Block Relocation Problem\\duplicate-either-\\timer.c\"",
-  "file": "C:/Users/wsyun/Desktop/Thesis/Block Relocation Problem/duplicate-either-/timer.c"
 }
 ]

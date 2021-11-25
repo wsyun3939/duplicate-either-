@@ -681,33 +681,6 @@ solve.c.s:
 	cd /d c:\Users\wsyun\Desktop\Thesis\BLOCKR~1\DUPLIC~1\build && $(MAKE) -f CMakeFiles\duplicate-either-.dir\build.make CMakeFiles/duplicate-either-.dir/solve.c.s
 .PHONY : solve.c.s
 
-timer.obj: timer.c.obj
-
-.PHONY : timer.obj
-
-# target to build an object file
-timer.c.obj:
-	cd /d c:\Users\wsyun\Desktop\Thesis\BLOCKR~1\DUPLIC~1\build && $(MAKE) -f CMakeFiles\duplicate-either-.dir\build.make CMakeFiles/duplicate-either-.dir/timer.c.obj
-.PHONY : timer.c.obj
-
-timer.i: timer.c.i
-
-.PHONY : timer.i
-
-# target to preprocess a source file
-timer.c.i:
-	cd /d c:\Users\wsyun\Desktop\Thesis\BLOCKR~1\DUPLIC~1\build && $(MAKE) -f CMakeFiles\duplicate-either-.dir\build.make CMakeFiles/duplicate-either-.dir/timer.c.i
-.PHONY : timer.c.i
-
-timer.s: timer.c.s
-
-.PHONY : timer.s
-
-# target to generate assembly for a file
-timer.c.s:
-	cd /d c:\Users\wsyun\Desktop\Thesis\BLOCKR~1\DUPLIC~1\build && $(MAKE) -f CMakeFiles\duplicate-either-.dir\build.make CMakeFiles/duplicate-either-.dir/timer.c.s
-.PHONY : timer.c.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -766,9 +739,6 @@ help:
 	@echo ... solve.obj
 	@echo ... solve.i
 	@echo ... solve.s
-	@echo ... timer.obj
-	@echo ... timer.i
-	@echo ... timer.s
 .PHONY : help
 
 

@@ -7,7 +7,6 @@ CMakeFiles/duplicate-either-.dir/heuristics.c.obj: ../heuristics.h
 CMakeFiles/duplicate-either-.dir/heuristics.c.obj: ../print.h
 CMakeFiles/duplicate-either-.dir/heuristics.c.obj: ../problem.h
 CMakeFiles/duplicate-either-.dir/heuristics.c.obj: ../solution.h
-CMakeFiles/duplicate-either-.dir/heuristics.c.obj: ../timer.h
 
 CMakeFiles/duplicate-either-.dir/main.c.obj: ../define.h
 CMakeFiles/duplicate-either-.dir/main.c.obj: ../main.c
@@ -15,14 +14,12 @@ CMakeFiles/duplicate-either-.dir/main.c.obj: ../print.h
 CMakeFiles/duplicate-either-.dir/main.c.obj: ../problem.h
 CMakeFiles/duplicate-either-.dir/main.c.obj: ../solution.h
 CMakeFiles/duplicate-either-.dir/main.c.obj: ../solve.h
-CMakeFiles/duplicate-either-.dir/main.c.obj: ../timer.h
 
 CMakeFiles/duplicate-either-.dir/print.c.obj: ../define.h
 CMakeFiles/duplicate-either-.dir/print.c.obj: ../print.c
 CMakeFiles/duplicate-either-.dir/print.c.obj: ../print.h
 CMakeFiles/duplicate-either-.dir/print.c.obj: ../problem.h
 CMakeFiles/duplicate-either-.dir/print.c.obj: ../solution.h
-CMakeFiles/duplicate-either-.dir/print.c.obj: ../timer.h
 
 CMakeFiles/duplicate-either-.dir/problem.c.obj: ../define.h
 CMakeFiles/duplicate-either-.dir/problem.c.obj: ../problem.c
@@ -40,10 +37,4 @@ CMakeFiles/duplicate-either-.dir/solve.c.obj: ../problem.h
 CMakeFiles/duplicate-either-.dir/solve.c.obj: ../solution.h
 CMakeFiles/duplicate-either-.dir/solve.c.obj: ../solve.c
 CMakeFiles/duplicate-either-.dir/solve.c.obj: ../solve.h
-CMakeFiles/duplicate-either-.dir/solve.c.obj: ../timer.h
-
-CMakeFiles/duplicate-either-.dir/timer.c.obj: ../define.h
-CMakeFiles/duplicate-either-.dir/timer.c.obj: ../problem.h
-CMakeFiles/duplicate-either-.dir/timer.c.obj: ../timer.c
-CMakeFiles/duplicate-either-.dir/timer.c.obj: ../timer.h
 

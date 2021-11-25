@@ -37,7 +37,6 @@
 #include "define.h"
 #include "problem.h"
 #include "solution.h"
-#include "timer.h"
 
 void print_problem(problem_t *, FILE *);
 void print_state(problem_t *, state_t *, FILE *);
